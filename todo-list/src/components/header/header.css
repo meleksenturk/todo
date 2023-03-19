@@ -1,0 +1,19 @@
+.header{
+    @apply w-full md:h-[120px] h-[91px] flex justify-between items-center border-t
+}
+
+.header-logo{
+    @apply md:w-[150px] min-w-[80px] w-[120px] object-cover mt-0 rounded-full md:ml-8 ml-5 
+}
+.header-search{
+    @apply flex-1 flex justify-center
+}
+.header-items{
+    @apply flex justify-between items-center md:gap-7 gap-4 md:mr-8 mr-4
+}
+.header-link{
+    @apply flex flex-col hover:text-[#40a9ff] transition-all
+}
+.header-link-span {
+    @apply  md:text-[12px] text-[10px]
+}
